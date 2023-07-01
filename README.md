@@ -1,7 +1,7 @@
 # Currency Exchange
 By: Lindsay Warr
 
-_View on [Github Pages](https://username.github.io/currency-exchange-new/)_
+_View on [Github Pages](https://iamalion.github.io/currency-exchange-new/)_
 
 ## **Technologies Used**
 
