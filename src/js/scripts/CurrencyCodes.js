@@ -1,4 +1,5 @@
 export const currencies = [
+    "USD",
     "AED",
     "AFN",
     "ALL",
@@ -145,7 +146,6 @@ export const currencies = [
     "TZS",
     "UAH",
     "UGX",
-    "USD",
     "UYU",
     "UZS",
     "VES",
@@ -164,7 +164,7 @@ export const currencies = [
 ];
 
 export const currencyName = [
-
+    "USD - United States Dollar",
     "AED - UAE Dirham",
     "AFN - Afghan Afghani",
     "ALL - Albanian Lek",
@@ -311,7 +311,6 @@ export const currencyName = [
     "TZS - Tanzanian Shilling",
     "UAH - Ukrainian Hryvnia",
     "UGX - Ugandan Shilling",
-    "USD - United States Dollar",
     "UYU - Uruguayan Peso",
     "UZS - Uzbekistan Som",
     "VES - Venezuelan Bolívar",

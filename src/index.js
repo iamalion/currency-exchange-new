@@ -1,4 +1,3 @@
-import './css/fonts.css';
 import './css/styles.css';
 import CurrencyConverter from './js/scripts/Converter';
 import { currencies, currencyName} from './js/scripts/CurrencyCodes';
