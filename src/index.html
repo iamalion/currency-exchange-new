@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Node_Project_Name</title>
+    <title>Currency Exchange</title>
 </head>
 <body>
-    
+    <h1>Exchange O'Matic</h1>
+    <p>Use the handy calculator to see exchange rates!</p>
+    <div id="form-div">
+        <form>
+            <label for="amount">Enter an amount:</label>
+            <input id="amount" type="number" name="amount" required>
+            <div class="dropdowns">
+                <label for="from">Starting currency</label>
+                <select id="from" name="from" class="form-control"></select>
+                <label for="to">Ending currency</label>
+                <select id="to" name="to" class="form-control"></select>
+            </div>
+            <button type="submit" id="button-id" class="btn">Convert currency</button>
+        </form>
+            <h3>Conversion:</h3>
+            <p id="show-response"></p>
+        
+        
+    </div>
 </body>
 </html>

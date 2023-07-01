@@ -1,15 +1,13 @@
-# Node Template
-
+# Currency Exchange
 By: Lindsay Warr
 
-Template repo for Node.js project with Webpack, ESLint, Babel, and Jest.
-
-View on [Github Pages](https://username.github.io/repo-name/)
+_View on [Github Pages](https://username.github.io/currency-exchange-new/)_
 
 ## **Technologies Used**
 
 - HTML5
 - CSS3
+- JavaScript
 - Skeleton 2.0.4 by Dave Gamache
 - Node.js
   - Webpack
@@ -18,107 +16,30 @@ View on [Github Pages](https://username.github.io/repo-name/)
   - Babel
 
 ## **Description**
+This is the project for week 6 at Epicodus to demonstrate proficiency in Asynchrony and APIs. It uses the currency exchange API from exchangerate-api.com/ and requires an API key.
 
-Node is a template repo for a basic Node.js project, outfitted with a bundler, linter, javascript converter, and test package. The file structure consists of the config files in the root, along with package.json for setup, and the folders, _ _ tests _ _ containing test files and src contained the development files. There is one sample test file in the tests folder, whereas src consists of assets, css and js with index.js and index.html. Assets is for images and fonts. It contains two subdirectories, img and fonts, both containing samples, the latter possessing a selection: Bebas Neue, League Spartan, Muli, Nunito Sans, Oswald, Ovo, and Ra Mono. Css is for stylesheets, and contains two sample files, fonts.css and styles.css. The present styles in the latter are derived from Skeleton 2.0.4 by Dave Gamache. Js is for interaction and functionality, and has two subdirectories, bs for business logic and ui for user interface logic.
+## Complete Setup
+- Clone this repository
+- In the top level of the directory, create a new file named ".env" using the terminal command `touch .env`
+- Go to the ExchangeRate-API website to register for a free API key: [ExchangeRate-API](exchangerate-api.com/)
+- At the website, enter your email and click the "Get Free Key" button
+- Create an account with your email, first name and a password and agree to the terms of use and click "Get Started!"
+- Access you dashboard to find your unique API key
+- Add your API key to the .env file by entering the line API_KEY={xxx} where the {xxx} should be replaced with your private key. Be sure to follow this exact naming convention, including capitalization, then save the file.
+- Open the project in VS Code
+- Run the following commands in the terminal to install packages with npm:
+`$ npm install`
+`$ npm run build`
+`$ npm run start`
+- After running the "start" script, the webpage should automatically open in your browser.
+- Alternatively, after installation and bundling, you can run the application by opening ./dist/index.html in the browser if you do not need the live server.
 
-## **Complete Setup**
-
-- Navigate to main page of repo
-- Above file list, click **Use this template**
-- Dropdown: select **Create a new repository**
-- Fill out create repo form
-
-### **Local Setup**
-
-- Navigate to your new repo
-- Clone it
-
-```bash
-git clone .../.git
-git pull origin main
-```
-
-- Load packages
-
-```bash
-npm install
-```
-
-Optionally, you can remove .DS_Store from .gitignore, if you are not using a Mac.
-
-**Do not forget:**
-
-- Remove unwanted fonts from assets/fonts
-- Remove sample img from assets/img
-
-### **Change project references**
-
-package.json
-- Line 2 project name
-
-webpack.config.js
-- Line 23 title in HtmlWebpackPlugin
-
-README.md
-- Line 1 title of project
-- Line 3 developer(s) of project
-- Line 7 username and repo name in link
-
-index.html
-- Line 6 title in head
-
-Change this readme to reflect your project's purpose and setup. Also, do not forget to change the copyright. It's best to produce a license when creating the repo, hence the initial pull.
-
-### **Change imports, exports and component files and tests**
-
-Component.js is just a sample. Rename it and use it to contain just the logic of a single component. Components can be seen as handlers of an object, feature, or state.
-
-Component.test.js is just a sample with a single test and describe. Each component should have a corresponding test file with the same name, but with an extension of .test.js, and the test file should only test the functionality of its corresponding component. Make sure you're importing what is needed for it to run.
-
-## **Rendering**
-
-**Github Pages**
-
-```bash
-git add .
-git commit -m "Save final changes"
-git push origin main
-git checkout -b gh-pages
-git push origin gh-pages
-```
-
-**To update Github Pages**
-
-```bash
-git add .
-git commit -m "Save changes in main"
-git push origin main
-git checkout gh-pages
-git merge main
-git push origin gh-pages
-```
-
-### **How to render from dist/**
-
-1. Remove dist/ from .gitignore
-
-2.  
-```bash
-git add dist
-git commit -m "Initial dist subtree commit"
-```
-
-3.  
-```bash
-git subtree push --prefix dist origin gh-pages
-```
+Note: All source files are located in the ./src/ folder
 
 ## **Known Bugs**
-
-Please report any issues in using this template.
+None at this time. Please report any to iamalion@gmail.com 
 
 ## **License**
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 Copyright (c) 2023 iamalion
