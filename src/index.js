@@ -9,12 +9,10 @@ async function returnExchange(amount, from, to) {
     if (response.result) {
         printElements(response, amount, from, to);
     } else {
-        printError(response, amount, from, to);   
+        printError(response, amount, from, to); 
     }
 }
-
 // UI Logic
-
 
 const fromSelect = document.getElementById('from');
 const toSelect = document.getElementById('to');
